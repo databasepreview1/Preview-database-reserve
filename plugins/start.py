@@ -241,6 +241,8 @@ async def task():
                     pass
                 remove_schedule(schedule['chat_id'], schedule['msg_id'])
 
+asyncio.create_task(task())
+
 # Jishu Developer 
 # Don't Remove Credit 🥺
 # Telegram Channel @Madflix_Bots
